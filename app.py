@@ -2682,7 +2682,7 @@ class ResumeApp:
                                 st.error(f"Error during login: {str(e)}")
         
             # Display the repository notification in the sidebar
-            self.show_repo_notification()
+            #self.show_repo_notification()
 
         # Force home page on first load
         if 'initial_load' not in st.session_state:
